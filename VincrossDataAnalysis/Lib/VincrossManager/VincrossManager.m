@@ -12,6 +12,7 @@
 + (NSString *)getAppVersion
 {
     NSString *v= [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+    NSLog(@"%@",v);
     return  v;
 }
 
