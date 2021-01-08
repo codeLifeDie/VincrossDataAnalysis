@@ -75,8 +75,8 @@
 		EF7E2CD725A846F60018DCFF /* VincrossManager */ = {
 			isa = PBXGroup;
 			children = (
-				EF7E2CD825A846F60018DCFF /* VincrossManager.m */,
 				EF7E2CD925A846F60018DCFF /* VincrossManager.h */,
+				EF7E2CD825A846F60018DCFF /* VincrossManager.m */,
 			);
 			path = VincrossManager;
 			sourceTree = "<group>";
