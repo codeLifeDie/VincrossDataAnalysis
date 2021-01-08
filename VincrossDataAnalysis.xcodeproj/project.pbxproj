@@ -59,6 +59,7 @@
 		EF2E0B54259DC83800422215 /* VincrossDataAnalysis */ = {
 			isa = PBXGroup;
 			children = (
+				EF7E2B6525A807350018DCFF /* VincrossManager */,
 				EF2E0B55259DC83800422215 /* AppDelegate.h */,
 				EF2E0B56259DC83800422215 /* AppDelegate.m */,
 				EF2E0B5B259DC83800422215 /* ViewController.h */,
@@ -67,10 +68,17 @@
 				EF2E0B63259DC83B00422215 /* LaunchScreen.storyboard */,
 				EF2E0B66259DC83B00422215 /* Info.plist */,
 				EF2E0B67259DC83B00422215 /* main.m */,
+			);
+			path = VincrossDataAnalysis;
+			sourceTree = "<group>";
+		};
+		EF7E2B6525A807350018DCFF /* VincrossManager */ = {
+			isa = PBXGroup;
+			children = (
 				EF3105A125A2D06100549E14 /* VincrossManager.h */,
 				EF3105A225A2D06100549E14 /* VincrossManager.m */,
 			);
-			path = VincrossDataAnalysis;
+			path = VincrossManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
