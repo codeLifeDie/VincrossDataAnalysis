@@ -12,7 +12,7 @@
 		EF2E0B62259DC83B00422215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2E0B61259DC83B00422215 /* Assets.xcassets */; };
 		EF2E0B65259DC83B00422215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2E0B63259DC83B00422215 /* LaunchScreen.storyboard */; };
 		EF2E0B68259DC83B00422215 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2E0B67259DC83B00422215 /* main.m */; };
-		EF3105A325A2D06100549E14 /* VincrossManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3105A225A2D06100549E14 /* VincrossManager.m */; };
+		EF7E2B6A25A8088F0018DCFF /* VincrossManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7E2B6825A8088F0018DCFF /* VincrossManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +25,8 @@
 		EF2E0B64259DC83B00422215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF2E0B66259DC83B00422215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF2E0B67259DC83B00422215 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EF3105A125A2D06100549E14 /* VincrossManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VincrossManager.h; sourceTree = "<group>"; };
-		EF3105A225A2D06100549E14 /* VincrossManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VincrossManager.m; sourceTree = "<group>"; };
+		EF7E2B6825A8088F0018DCFF /* VincrossManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VincrossManager.m; sourceTree = "<group>"; };
+		EF7E2B6925A8088F0018DCFF /* VincrossManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VincrossManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +43,7 @@
 		EF2E0B49259DC83800422215 = {
 			isa = PBXGroup;
 			children = (
+				EF7E2B6725A8088F0018DCFF /* VincrossManager */,
 				EF2E0B54259DC83800422215 /* VincrossDataAnalysis */,
 				EF2E0B53259DC83800422215 /* Products */,
 			);
@@ -59,7 +60,6 @@
 		EF2E0B54259DC83800422215 /* VincrossDataAnalysis */ = {
 			isa = PBXGroup;
 			children = (
-				EF7E2B6525A807350018DCFF /* VincrossManager */,
 				EF2E0B55259DC83800422215 /* AppDelegate.h */,
 				EF2E0B56259DC83800422215 /* AppDelegate.m */,
 				EF2E0B5B259DC83800422215 /* ViewController.h */,
@@ -72,11 +72,11 @@
 			path = VincrossDataAnalysis;
 			sourceTree = "<group>";
 		};
-		EF7E2B6525A807350018DCFF /* VincrossManager */ = {
+		EF7E2B6725A8088F0018DCFF /* VincrossManager */ = {
 			isa = PBXGroup;
 			children = (
-				EF3105A125A2D06100549E14 /* VincrossManager.h */,
-				EF3105A225A2D06100549E14 /* VincrossManager.m */,
+				EF7E2B6825A8088F0018DCFF /* VincrossManager.m */,
+				EF7E2B6925A8088F0018DCFF /* VincrossManager.h */,
 			);
 			path = VincrossManager;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 			files = (
 				EF2E0B5D259DC83800422215 /* ViewController.m in Sources */,
 				EF2E0B57259DC83800422215 /* AppDelegate.m in Sources */,
-				EF3105A325A2D06100549E14 /* VincrossManager.m in Sources */,
+				EF7E2B6A25A8088F0018DCFF /* VincrossManager.m in Sources */,
 				EF2E0B68259DC83B00422215 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
